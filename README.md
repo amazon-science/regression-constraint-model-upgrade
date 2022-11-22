@@ -6,6 +6,8 @@ The inconsistency in the behaviour of different versions of an AI module may bri
 
 This repository holds the codebase for exploring regression problem in classification task. It provides training scripts for mainstream network architectures and analysis tools for evaluating regression extent among them. 
 
+![Regression in model update](img/teaser.png)
+
 ## Installation
 
 - Install [Anaconda (with python3.7)](https://www.anaconda.com/products/individual) 
