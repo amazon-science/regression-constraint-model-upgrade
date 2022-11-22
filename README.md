@@ -7,7 +7,8 @@ The inconsistency in the behaviour of different versions of an AI module may bri
 This repository holds the codebase for exploring regression problem in classification task. It provides training scripts for mainstream network architectures and analysis tools for evaluating regression extent among them. 
 
 ![Regression in model update](img/teaser.png)
-
+*Regression in model update: When updating an old classifier (red) to a new one (dashed blue line), we correct
+mistakes (top-right, white), but we also introduce errors that the old classifier did not make (negative flips, bottom-left, red). While on average the errors decrease (from 57% to 42% in this toy example), regression can wreak havoc with downstream processing, nullifying the benefit of the update.*
 ## Installation
 
 - Install [Anaconda (with python3.7)](https://www.anaconda.com/products/individual) 
@@ -293,7 +294,7 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 This project is licensed under the Apache-2.0 License.
 
 ## Contribution
-This codebase is built by [Sijie Yan](https://github.com/yysijie) and [Yue Zhao](https://github.com/zhaoyue-zephyrus) during their internship at [AWS Rekognition](https://aws.amazon.com/rekognition/) Team, under the supervision of [Yuanjun Xiong](https://github.com/yjxiong).
+This codebase is built by [Sijie Yan](https://github.com/yysijie) and [Yue Zhao](https://github.com/zhaoyue-zephyrus) during their internship at [AWS Rekognition](https://aws.amazon.com/rekognition/) team, mentored by [Yuanjun Xiong](https://github.com/yjxiong).
 ```
 Sijie Yan: yysijie@gmail.com
 Yue Zhao: yzhao@cs.utexas.edu
