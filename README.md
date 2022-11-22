@@ -290,12 +290,16 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 
 This project is licensed under the Apache-2.0 License.
 
-## Contact
+## Contribution
 This codebase is built by [Sijie Yan](https://github.com/yysijie) and [Yue Zhao](https://github.com/zhaoyue-zephyrus) during their internship at [AWS Rekognition](https://aws.amazon.com/rekognition/) Team, under the supervision of [Yuanjun Xiong](https://github.com/yjxiong).
-For any question, feel free to contact：
 ```
 Sijie Yan: yysijie@gmail.com
 Yue Zhao: yzhao@cs.utexas.edu
-Yantao Shen: ytshen@link.cuhk.edu.hk
 Yuanjun Xiong (mentor): yjxiong at ie.cuhk.edu.hk
+```
+
+## Contact
+For any question, feel free to contact：
+```
+Yantao Shen: ytshen@link.cuhk.edu.hk
 ```
