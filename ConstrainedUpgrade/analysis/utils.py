@@ -1,6 +1,6 @@
 import torch
 
-class ModelAnalizer():
+class ModelAnalyzer():
     
     def __init__(self, model_info):
         if type(model_info) == str:
@@ -65,7 +65,7 @@ class ModelAnalizer():
         outputs = (self.outputs * self.ensemble_level + other.outputs * other.ensemble_level)/(self.ensemble_level + other.ensemble_level)
         gt = self.gt
         pred = outputs.max(1)[1]
-        ens_model = ModelAnalizer(dict(outputs=outputs, pred=pred, gt=gt))
+        ens_model = ModelAnalyzer(dict(outputs=outputs, pred=pred, gt=gt))
         ens_model.ensemble_level = self.ensemble_level + other.ensemble_level
         return ens_model
 

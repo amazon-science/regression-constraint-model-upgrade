@@ -62,9 +62,9 @@ python ConstrainedUpgrade/train.py --evaluate --resume $MODEL_PATH [other option
 
 We also provide anylisis tools to calucate the statistic numbers such as accuracy and negative flip rate. Please refer to `ConstrainedUpgrade\analysis`. There is an example code snippet:
 ```python
-from analysis.utils import ModelAnalizer
-old_model = ModelAnalizer('{}/model_best.result'.format(work_dir_1))
-new_model = ModelAnalizer('{}/model_best.result'.format(work_dir_2))
+from analysis.utils import ModelAnalyzer
+old_model = ModelAnalyzer('{}/model_best.result'.format(work_dir_1))
+new_model = ModelAnalyzer('{}/model_best.result'.format(work_dir_2))
 ensemble_model = old_model + new_model
 print('Accuracy: {}, NFR: {}'.format(new_model.Acc(), new_model.NFR(old_model)))
 print('Ensemble Accuracy: {}'.format(ensemble_model.Acc()))

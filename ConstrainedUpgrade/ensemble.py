@@ -1,6 +1,6 @@
 import sys
 import argparse
-from analysis.utils import ModelAnalizer
+from analysis.utils import ModelAnalyzer
 import torch
 
 parser = argparse.ArgumentParser()
@@ -12,7 +12,7 @@ args = parser.parse_args()
 if __name__ == "__main__":
     target = 0
     for s in args.source:
-        m = ModelAnalizer(s)
+        m = ModelAnalyzer(s)
         print(s, m.Acc())
         target += m
         del m
