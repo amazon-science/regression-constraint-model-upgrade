@@ -1,0 +1,500 @@
+{"id": "14737", "partition": "dev", "label": 15, "text": "ok google what's the easiest and quickest way to cook a turkey", "label_name": "cooking_query"}
+{"id": "9822", "partition": "dev", "label": 35, "text": "listen to the martian from downpour", "label_name": "play_audiobook"}
+{"id": "14364", "partition": "train", "label": 39, "text": "what is the stock price of nike today", "label_name": "qa_stock"}
+{"id": "9758", "partition": "train", "label": 35, "text": "i would like to start this new audiobook", "label_name": "play_audiobook"}
+{"id": "492", "partition": "train", "label": 31, "text": "what's a silly joke you know", "label_name": "general_joke"}
+{"id": "14667", "partition": "train", "label": 29, "text": "how many euros for one u. s. d.", "label_name": "qa_currency"}
+{"id": "12204", "partition": "train", "label": 24, "text": "could you please hire me a taxi to go to the opera tonight", "label_name": "transport_taxi"}
+{"id": "12867", "partition": "train", "label": 24, "text": "uber please", "label_name": "transport_taxi"}
+{"id": "16243", "partition": "train", "label": 33, "text": "how old is joanne", "label_name": "email_querycontact"}
+{"id": "13993", "partition": "train", "label": 29, "text": "what is the dollar exchange rate", "label_name": "qa_currency"}
+{"id": "2961", "partition": "train", "label": 18, "text": "repeat all", "label_name": "music_settings"}
+{"id": "12656", "partition": "dev", "label": 24, "text": "i need a taxi at eight tomorrow morning to take me to work", "label_name": "transport_taxi"}
+{"id": "15646", "partition": "train", "label": 22, "text": "tweet complaint to at", "label_name": "social_post"}
+{"id": "9702", "partition": "train", "label": 35, "text": "i want to hear a book by torey hayden", "label_name": "play_audiobook"}
+{"id": "9901", "partition": "train", "label": 35, "text": "find me an audio book version of ready player one and play it for me", "label_name": "play_audiobook"}
+{"id": "1609", "partition": "train", "label": 11, "text": "start brewing please", "label_name": "iot_coffee"}
+{"id": "11985", "partition": "train", "label": 23, "text": "what should i see this weekend", "label_name": "recommendation_events"}
+{"id": "4455", "partition": "train", "label": 46, "text": "give me the local time of london", "label_name": "datetime_query"}
+{"id": "5505", "partition": "train", "label": 40, "text": "what alarms are set in the house", "label_name": "alarm_query"}
+{"id": "10622", "partition": "train", "label": 37, "text": "add diapers in cosmetic list", "label_name": "lists_createoradd"}
+{"id": "1306", "partition": "train", "label": 46, "text": "can you tell me what the date is today", "label_name": "datetime_query"}
+{"id": "11569", "partition": "train", "label": 32, "text": "tell me chinese restaurants in the area", "label_name": "recommendation_locations"}
+{"id": "9701", "partition": "train", "label": 35, "text": "i want to hear the book written by the mother of the shooter at columbine", "label_name": "play_audiobook"}
+{"id": "11597", "partition": "train", "label": 23, "text": "can you recommend some dog's how events going on in our city", "label_name": "recommendation_events"}
+{"id": "4571", "partition": "train", "label": 17, "text": "the wemo plug should be turned off on", "label_name": "iot_wemo_off"}
+{"id": "10136", "partition": "train", "label": 44, "text": "show me cooking websites", "label_name": "cooking_recipe"}
+{"id": "8626", "partition": "dev", "label": 27, "text": "when is the event", "label_name": "calendar_query"}
+{"id": "696", "partition": "train", "label": 9, "text": "please brighten the room", "label_name": "iot_hue_lightup"}
+{"id": "13712", "partition": "train", "label": 58, "text": "what is the meaning of the word sanctimonious", "label_name": "qa_definition"}
+{"id": "1596", "partition": "train", "label": 46, "text": "what time is it in dallas", "label_name": "datetime_query"}
+{"id": "14403", "partition": "train", "label": 39, "text": "what is the stock price of sensex right now", "label_name": "qa_stock"}
+{"id": "13084", "partition": "dev", "label": 58, "text": "how to spell the word giraffe", "label_name": "qa_definition"}
+{"id": "3922", "partition": "train", "label": 46, "text": "i need to know what is the date today", "label_name": "datetime_query"}
+{"id": "409", "partition": "train", "label": 40, "text": "read me my alarms", "label_name": "alarm_query"}
+{"id": "3396", "partition": "train", "label": 26, "text": "was this song in the top twenty", "label_name": "music_query"}
+{"id": "10133", "partition": "train", "label": 44, "text": "i need help with cooking baked chicken", "label_name": "cooking_recipe"}
+{"id": "13678", "partition": "train", "label": 29, "text": "what is worth more a u. s. d. or aus", "label_name": "qa_currency"}
+{"id": "7868", "partition": "train", "label": 27, "text": "what is on my schedule for nine to eleven am tomorrow", "label_name": "calendar_query"}
+{"id": "14520", "partition": "train", "label": 58, "text": "give me the definition of the word fondle", "label_name": "qa_definition"}
+{"id": "10559", "partition": "train", "label": 37, "text": "prepare a new list", "label_name": "lists_createoradd"}
+{"id": "10966", "partition": "train", "label": 28, "text": "what lists do you have on you right now", "label_name": "lists_query"}
+{"id": "11445", "partition": "train", "label": 48, "text": "can you find the dave ramsey podcast that aired earlier today", "label_name": "play_podcasts"}
+{"id": "3545", "partition": "train", "label": 1, "text": "please play classical music", "label_name": "play_music"}
+{"id": "11726", "partition": "train", "label": 32, "text": "make a reservation for two at olive garden", "label_name": "recommendation_locations"}
+{"id": "5565", "partition": "dev", "label": 20, "text": "did ben and jen get back together", "label_name": "news_query"}
+{"id": "5125", "partition": "train", "label": 20, "text": "people canceling iowa vacations over congressman's words", "label_name": "news_query"}
+{"id": "16915", "partition": "train", "label": 45, "text": "do i have any new emails", "label_name": "email_query"}
+{"id": "12084", "partition": "train", "label": 23, "text": "are there any cultural activities happening in new york", "label_name": "recommendation_events"}
+{"id": "10163", "partition": "train", "label": 44, "text": "what is a good way to make turkey meatballs", "label_name": "cooking_recipe"}
+{"id": "13721", "partition": "train", "label": 29, "text": "exchange rate from cad to u. s. d.", "label_name": "qa_currency"}
+{"id": "3438", "partition": "train", "label": 1, "text": "play music from party playlist", "label_name": "play_music"}
+{"id": "747", "partition": "train", "label": 1, "text": "play song from my trance list", "label_name": "play_music"}
+{"id": "10174", "partition": "train", "label": 44, "text": "find a good recipe for steak", "label_name": "cooking_recipe"}
+{"id": "10821", "partition": "train", "label": 28, "text": "is there anything on my list today", "label_name": "lists_query"}
+{"id": "4647", "partition": "train", "label": 49, "text": "please make the lights blue", "label_name": "iot_hue_lightchange"}
+{"id": "10246", "partition": "train", "label": 14, "text": "play chess with me", "label_name": "play_game"}
+{"id": "15426", "partition": "train", "label": 6, "text": "is everyone on my facebook list watching the game", "label_name": "social_query"}
+{"id": "13113", "partition": "dev", "label": 53, "text": "please give me information next movie of aamir khan", "label_name": "qa_factoid"}
+{"id": "5387", "partition": "train", "label": 26, "text": "what's the name of the current song", "label_name": "music_query"}
+{"id": "3678", "partition": "train", "label": 11, "text": "i'd like a coffee please", "label_name": "iot_coffee"}
+{"id": "14204", "partition": "train", "label": 53, "text": "what is the coldest state in the us", "label_name": "qa_factoid"}
+{"id": "12859", "partition": "train", "label": 51, "text": "when is the next train to london", "label_name": "transport_query"}
+{"id": "13719", "partition": "train", "label": 53, "text": "is adele going to go on tour", "label_name": "qa_factoid"}
+{"id": "7366", "partition": "train", "label": 4, "text": "please set a reminder of raju marriage on thirty first of march twenty seventeen", "label_name": "calendar_set"}
+{"id": "13060", "partition": "train", "label": 58, "text": "give me the definition of school", "label_name": "qa_definition"}
+{"id": "3448", "partition": "train", "label": 49, "text": "change the color of the lights to blue", "label_name": "iot_hue_lightchange"}
+{"id": "12026", "partition": "train", "label": 23, "text": "any runs on the west side", "label_name": "recommendation_events"}
+{"id": "993", "partition": "train", "label": 1, "text": "play irene from tobymac", "label_name": "play_music"}
+{"id": "4378", "partition": "train", "label": 12, "text": "does arby's do takeaway", "label_name": "takeaway_query"}
+{"id": "3373", "partition": "train", "label": 46, "text": "olly what time is it in california", "label_name": "datetime_query"}
+{"id": "8698", "partition": "train", "label": 4, "text": "put me in on tuesday the twenty first at ten with al", "label_name": "calendar_set"}
+{"id": "4106", "partition": "train", "label": 19, "text": "what will the high be tomorrow in tucson", "label_name": "weather_query"}
+{"id": "13163", "partition": "train", "label": 58, "text": "origin of word", "label_name": "qa_definition"}
+{"id": "14518", "partition": "train", "label": 58, "text": "give me the definition of the word armor", "label_name": "qa_definition"}
+{"id": "6690", "partition": "train", "label": 42, "text": "did you get all that you needed today", "label_name": "general_quirky"}
+{"id": "5097", "partition": "train", "label": 11, "text": "olly set coffee to brew at seven am", "label_name": "iot_coffee"}
+{"id": "14350", "partition": "train", "label": 42, "text": "can you explain your speech algorithm to me", "label_name": "general_quirky"}
+{"id": "1766", "partition": "train", "label": 20, "text": "please give me update of hockey", "label_name": "news_query"}
+{"id": "12933", "partition": "train", "label": 53, "text": "tell me something about", "label_name": "qa_factoid"}
+{"id": "7793", "partition": "train", "label": 41, "text": "send an email to sarah about brunch today", "label_name": "email_sendemail"}
+{"id": "14357", "partition": "train", "label": 42, "text": "whether i can travel the whole world in a day", "label_name": "general_quirky"}
+{"id": "17071", "partition": "train", "label": 45, "text": "read me any new messages in my email", "label_name": "email_query"}
+{"id": "2741", "partition": "dev", "label": 12, "text": "does my favorite restaurant do delivery", "label_name": "takeaway_query"}
+{"id": "15210", "partition": "train", "label": 22, "text": "post this message in facebook", "label_name": "social_post"}
+{"id": "8976", "partition": "train", "label": 4, "text": "just set me reminders about meetings with my colleagues", "label_name": "calendar_set"}
+{"id": "14731", "partition": "dev", "label": 42, "text": "earthquake prediction", "label_name": "general_quirky"}
+{"id": "16774", "partition": "dev", "label": 45, "text": "bring up my email", "label_name": "email_query"}
+{"id": "7652", "partition": "train", "label": 4, "text": "before this event set notification", "label_name": "calendar_set"}
+{"id": "13669", "partition": "train", "label": 53, "text": "is barrow alaska above freezing during the year", "label_name": "qa_factoid"}
+{"id": "8067", "partition": "train", "label": 27, "text": "report the concert lineup with start times", "label_name": "calendar_query"}
+{"id": "1988", "partition": "dev", "label": 2, "text": "hey alexa turn on disco lights in my apartment and let the party begin", "label_name": "iot_hue_lighton"}
+{"id": "11284", "partition": "train", "label": 48, "text": "next episode", "label_name": "play_podcasts"}
+{"id": "819", "partition": "train", "label": 1, "text": "google music find me some enya to listen to", "label_name": "play_music"}
+{"id": "13891", "partition": "train", "label": 42, "text": "please tell me how to do my daughters eighth grade math", "label_name": "general_quirky"}
+{"id": "7637", "partition": "train", "label": 4, "text": "add birthday reminder on september four", "label_name": "calendar_set"}
+{"id": "12691", "partition": "train", "label": 47, "text": "how heavy is traffic now in denver", "label_name": "transport_traffic"}
+{"id": "16283", "partition": "train", "label": 33, "text": "check in contacts", "label_name": "email_querycontact"}
+{"id": "15362", "partition": "train", "label": 22, "text": "please tell kmart they sent the wrong item", "label_name": "social_post"}
+{"id": "14188", "partition": "train", "label": 39, "text": "what is starbuck's stock worth", "label_name": "qa_stock"}
+{"id": "16959", "partition": "train", "label": 45, "text": "who sent me email today and what was the subject", "label_name": "email_query"}
+{"id": "6950", "partition": "train", "label": 55, "text": "please set an alarm clock for my next meeting with the team at three p. m. next friday", "label_name": "alarm_set"}
+{"id": "16281", "partition": "train", "label": 41, "text": "please send an email to toms principal in regards to the meeting we have tomorrow", "label_name": "email_sendemail"}
+{"id": "4893", "partition": "train", "label": 42, "text": "get with new one", "label_name": "general_quirky"}
+{"id": "3179", "partition": "train", "label": 55, "text": "please set an alarm for seven hundred and thirty am tomorrow", "label_name": "alarm_set"}
+{"id": "15258", "partition": "dev", "label": 6, "text": "latest news feed from facebook", "label_name": "social_query"}
+{"id": "4474", "partition": "train", "label": 19, "text": "do i need my raingear", "label_name": "weather_query"}
+{"id": "11805", "partition": "train", "label": 23, "text": "what kind of free activities can i do locally this week", "label_name": "recommendation_events"}
+{"id": "1468", "partition": "dev", "label": 1, "text": "music on", "label_name": "play_music"}
+{"id": "15500", "partition": "train", "label": 22, "text": "bring up a complaint form", "label_name": "social_post"}
+{"id": "7153", "partition": "train", "label": 27, "text": "is my calendar free for four p. m. today", "label_name": "calendar_query"}
+{"id": "3483", "partition": "train", "label": 19, "text": "what is the weather back home today", "label_name": "weather_query"}
+{"id": "13130", "partition": "train", "label": 58, "text": "how can the word placid be used", "label_name": "qa_definition"}
+{"id": "5506", "partition": "train", "label": 40, "text": "tell me if my alarm is set for the morning", "label_name": "alarm_query"}
+{"id": "8030", "partition": "train", "label": 27, "text": "what events are scheduled for me to do today", "label_name": "calendar_query"}
+{"id": "11938", "partition": "train", "label": 32, "text": "hey olly list the local shops for me", "label_name": "recommendation_locations"}
+{"id": "9481", "partition": "train", "label": 38, "text": "turn on hot ninety seven", "label_name": "play_radio"}
+{"id": "11740", "partition": "dev", "label": 30, "text": "theaters near to me", "label_name": "recommendation_movies"}
+{"id": "9949", "partition": "train", "label": 44, "text": "how long do you cook it", "label_name": "cooking_recipe"}
+{"id": "14686", "partition": "train", "label": 53, "text": "what is the capital of jordan", "label_name": "qa_factoid"}
+{"id": "911", "partition": "train", "label": 46, "text": "please tell me the current time in new york", "label_name": "datetime_query"}
+{"id": "20", "partition": "train", "label": 49, "text": "set lights to twenty percent", "label_name": "iot_hue_lightchange"}
+{"id": "9488", "partition": "train", "label": 38, "text": "start playing f. m. one oh nine", "label_name": "play_radio"}
+{"id": "9119", "partition": "train", "label": 27, "text": "notify me about the meetings over a period of some days", "label_name": "calendar_query"}
+{"id": "10273", "partition": "dev", "label": 14, "text": "play solitaire", "label_name": "play_game"}
+{"id": "976", "partition": "train", "label": 46, "text": "what hour is it in new york now", "label_name": "datetime_query"}
+{"id": "8709", "partition": "train", "label": 27, "text": "am i off work on memorial day", "label_name": "calendar_query"}
+{"id": "1062", "partition": "train", "label": 20, "text": "i want to get hourly notification on financial news", "label_name": "news_query"}
+{"id": "7128", "partition": "train", "label": 4, "text": "remember me to send the presentation today at one p. m.", "label_name": "calendar_set"}
+{"id": "10320", "partition": "train", "label": 14, "text": "give me a company for playing football", "label_name": "play_game"}
+{"id": "2475", "partition": "train", "label": 1, "text": "play music that are classical only", "label_name": "play_music"}
+{"id": "522", "partition": "train", "label": 19, "text": "its not possible", "label_name": "weather_query"}
+{"id": "15243", "partition": "train", "label": 22, "text": "post to facebook", "label_name": "social_post"}
+{"id": "16157", "partition": "train", "label": 45, "text": "do i have the reply from charlotte relating to yesterdays inquiry", "label_name": "email_query"}
+{"id": "10611", "partition": "train", "label": 34, "text": "remove the item from list", "label_name": "lists_remove"}
+{"id": "11117", "partition": "train", "label": 34, "text": "could you please remove my card details from wallet", "label_name": "lists_remove"}
+{"id": "13518", "partition": "train", "label": 42, "text": "i was wondering how would you look", "label_name": "general_quirky"}
+{"id": "6532", "partition": "train", "label": 42, "text": "what is your mood today", "label_name": "general_quirky"}
+{"id": "13953", "partition": "train", "label": 42, "text": "i would like to know if in math operations is calculated before the addition subtraction multiply or division", "label_name": "general_quirky"}
+{"id": "406", "partition": "dev", "label": 1, "text": "i would like to listen to pop music please", "label_name": "play_music"}
+{"id": "14416", "partition": "train", "label": 53, "text": "is black sea real", "label_name": "qa_factoid"}
+{"id": "5818", "partition": "train", "label": 19, "text": "what is the weather in home town", "label_name": "weather_query"}
+{"id": "3634", "partition": "train", "label": 1, "text": "play be warned by tech nine", "label_name": "play_music"}
+{"id": "2910", "partition": "train", "label": 1, "text": "play led zeppelin houses of the holy", "label_name": "play_music"}
+{"id": "1322", "partition": "train", "label": 19, "text": "get today's weather report", "label_name": "weather_query"}
+{"id": "13179", "partition": "train", "label": 53, "text": "provide valid references with information to help people understand critical thinking and giving credit where credit is due rather than perpetuate fake news and alternative facts", "label_name": "qa_factoid"}
+{"id": "14689", "partition": "train", "label": 58, "text": "hey google can you tell me what the white house is", "label_name": "qa_definition"}
+{"id": "14685", "partition": "train", "label": 53, "text": "how many bones does a human body have", "label_name": "qa_factoid"}
+{"id": "732", "partition": "train", "label": 43, "text": "save my music preferences", "label_name": "music_likeness"}
+{"id": "8542", "partition": "train", "label": 27, "text": "what are my appointments today", "label_name": "calendar_query"}
+{"id": "8457", "partition": "train", "label": 27, "text": "what time is the shine down concert tonight", "label_name": "calendar_query"}
+{"id": "6922", "partition": "train", "label": 4, "text": "remind me about my meeting with joe at ten on monday", "label_name": "calendar_set"}
+{"id": "11007", "partition": "dev", "label": 28, "text": "what is on the list for today", "label_name": "lists_query"}
+{"id": "7410", "partition": "train", "label": 4, "text": "create event christmas on december twenty five two thousand and seventeen and set it to a repeating reminder", "label_name": "calendar_set"}
+{"id": "10443", "partition": "train", "label": 34, "text": "remove events from my list", "label_name": "lists_remove"}
+{"id": "7759", "partition": "train", "label": 50, "text": "please remove that event from my calendar", "label_name": "calendar_remove"}
+{"id": "2525", "partition": "train", "label": 12, "text": "do they have take-out", "label_name": "takeaway_query"}
+{"id": "7519", "partition": "train", "label": 4, "text": "add my meeting in google office tomorrow ten am", "label_name": "calendar_set"}
+{"id": "15705", "partition": "train", "label": 22, "text": "send twitter to mattel that they need to stop making toys in china", "label_name": "social_post"}
+{"id": "2107", "partition": "train", "label": 1, "text": "strings and pianos but only acoustical guitar not electric please", "label_name": "play_music"}
+{"id": "6481", "partition": "train", "label": 42, "text": "i got into a wreck today", "label_name": "general_quirky"}
+{"id": "14340", "partition": "train", "label": 39, "text": "current price of google please", "label_name": "qa_stock"}
+{"id": "16990", "partition": "train", "label": 45, "text": "do i have any emails from jane doe", "label_name": "email_query"}
+{"id": "4906", "partition": "train", "label": 31, "text": "today's jokes", "label_name": "general_joke"}
+{"id": "12134", "partition": "dev", "label": 51, "text": "when's the next train to cornwall", "label_name": "transport_query"}
+{"id": "13603", "partition": "train", "label": 53, "text": "how old is ryan reynolds", "label_name": "qa_factoid"}
+{"id": "8371", "partition": "train", "label": 50, "text": "hey olly on the twentieth clear my calendar", "label_name": "calendar_remove"}
+{"id": "6536", "partition": "train", "label": 42, "text": "what's your name", "label_name": "general_quirky"}
+{"id": "1697", "partition": "train", "label": 26, "text": "the song playing now is released by which artist", "label_name": "music_query"}
+{"id": "6026", "partition": "train", "label": 19, "text": "temperature", "label_name": "weather_query"}
+{"id": "1797", "partition": "train", "label": 46, "text": "today is", "label_name": "datetime_query"}
+{"id": "8236", "partition": "train", "label": 4, "text": "i need a reminder for tomorrow for joe's party after work", "label_name": "calendar_set"}
+{"id": "14816", "partition": "train", "label": 42, "text": "how he works perfectly", "label_name": "general_quirky"}
+{"id": "10693", "partition": "train", "label": 34, "text": "clear this list", "label_name": "lists_remove"}
+{"id": "3923", "partition": "train", "label": 1, "text": "play my country music playlist", "label_name": "play_music"}
+{"id": "2398", "partition": "train", "label": 1, "text": "initiate celine dion music", "label_name": "play_music"}
+{"id": "1753", "partition": "train", "label": 1, "text": "play all rock songs", "label_name": "play_music"}
+{"id": "15376", "partition": "train", "label": 22, "text": "tweet comcast and tell them their service is down again", "label_name": "social_post"}
+{"id": "11591", "partition": "train", "label": 30, "text": "recommend a movie with justin bieber", "label_name": "recommendation_movies"}
+{"id": "2911", "partition": "train", "label": 1, "text": "play c. d. led zeppelin houses of the holy", "label_name": "play_music"}
+{"id": "12857", "partition": "train", "label": 51, "text": "route please", "label_name": "transport_query"}
+{"id": "4531", "partition": "train", "label": 19, "text": "when is the next warm day", "label_name": "weather_query"}
+{"id": "16092", "partition": "train", "label": 45, "text": "any new emails after five p. m.", "label_name": "email_query"}
+{"id": "16550", "partition": "train", "label": 45, "text": "take me to emails from my boss", "label_name": "email_query"}
+{"id": "16307", "partition": "train", "label": 41, "text": "create an email that needs to go out to my family", "label_name": "email_sendemail"}
+{"id": "5173", "partition": "train", "label": 55, "text": "set a continuous alarm without the option to snooze for seven am please", "label_name": "alarm_set"}
+{"id": "15724", "partition": "train", "label": 22, "text": "tweet british airways that my last flight from chicago to london was delayed", "label_name": "social_post"}
+{"id": "8794", "partition": "train", "label": 27, "text": "do i have anything planned today", "label_name": "calendar_query"}
+{"id": "8132", "partition": "dev", "label": 27, "text": "when are the trains running tomorrow", "label_name": "calendar_query"}
+{"id": "8143", "partition": "train", "label": 4, "text": "add a party tonight in my remainder", "label_name": "calendar_set"}
+{"id": "10714", "partition": "train", "label": 37, "text": "can you create new list for me", "label_name": "lists_createoradd"}
+{"id": "452", "partition": "train", "label": 20, "text": "who is currently leading in the parliamentary election", "label_name": "news_query"}
+{"id": "11118", "partition": "train", "label": 28, "text": "do i have any lists for the upcoming week", "label_name": "lists_query"}
+{"id": "12510", "partition": "train", "label": 52, "text": "google search booking train ticket", "label_name": "transport_ticket"}
+{"id": "6679", "partition": "train", "label": 20, "text": "finance", "label_name": "news_query"}
+{"id": "8716", "partition": "train", "label": 27, "text": "is my schedule free today", "label_name": "calendar_query"}
+{"id": "12524", "partition": "train", "label": 52, "text": "book me the cheapest train ticket to new york", "label_name": "transport_ticket"}
+{"id": "7187", "partition": "train", "label": 27, "text": "what day of the week is my birthday this year", "label_name": "calendar_query"}
+{"id": "11228", "partition": "train", "label": 27, "text": "what is planned today", "label_name": "calendar_query"}
+{"id": "14081", "partition": "train", "label": 53, "text": "is jackie chan married", "label_name": "qa_factoid"}
+{"id": "11036", "partition": "train", "label": 34, "text": "remove bananas from my shopping list", "label_name": "lists_remove"}
+{"id": "14754", "partition": "train", "label": 53, "text": "what time zone is in cuba", "label_name": "qa_factoid"}
+{"id": "11477", "partition": "dev", "label": 48, "text": "play episode of stuff you should know in queue", "label_name": "play_podcasts"}
+{"id": "16279", "partition": "dev", "label": 41, "text": "email the message hi come down for dinner tonight to bro", "label_name": "email_sendemail"}
+{"id": "7761", "partition": "train", "label": 50, "text": "change my calendar for today", "label_name": "calendar_remove"}
+{"id": "7155", "partition": "train", "label": 27, "text": "do i have a two p. m. appointment", "label_name": "calendar_query"}
+{"id": "16478", "partition": "dev", "label": 45, "text": "check emails from cindy", "label_name": "email_query"}
+{"id": "14542", "partition": "dev", "label": 42, "text": "please tell few details about this person", "label_name": "general_quirky"}
+{"id": "15255", "partition": "train", "label": 6, "text": "can anyone tell me what's you guys discussing", "label_name": "social_query"}
+{"id": "2012", "partition": "train", "label": 26, "text": "what is the name of this song playing right now", "label_name": "music_query"}
+{"id": "7850", "partition": "train", "label": 4, "text": "notify me when my rent due", "label_name": "calendar_set"}
+{"id": "6427", "partition": "train", "label": 42, "text": "tennis", "label_name": "general_quirky"}
+{"id": "13271", "partition": "dev", "label": 53, "text": "where is justin bieber's home base", "label_name": "qa_factoid"}
+{"id": "17110", "partition": "train", "label": 36, "text": "update my contacts with the new contact sam at gmail dot com", "label_name": "email_addcontact"}
+{"id": "9356", "partition": "train", "label": 38, "text": "olly radio on", "label_name": "play_radio"}
+{"id": "8141", "partition": "train", "label": 4, "text": "schedule a two hour empty time block on saturday", "label_name": "calendar_set"}
+{"id": "3250", "partition": "train", "label": 25, "text": "i want to order some takeaway food", "label_name": "takeaway_order"}
+{"id": "12808", "partition": "train", "label": 51, "text": "train times location", "label_name": "transport_query"}
+{"id": "16861", "partition": "train", "label": 33, "text": "google chrome", "label_name": "email_querycontact"}
+{"id": "16558", "partition": "train", "label": 41, "text": "reply to johns email by saying yes i can", "label_name": "email_sendemail"}
+{"id": "4388", "partition": "train", "label": 9, "text": "turn the chandelier all the way up", "label_name": "iot_hue_lightup"}
+{"id": "276", "partition": "train", "label": 26, "text": "who covered the song one more cup of coffee", "label_name": "music_query"}
+{"id": "16429", "partition": "train", "label": 41, "text": "please send mom an email saying that i can make it next week", "label_name": "email_sendemail"}
+{"id": "9395", "partition": "train", "label": 38, "text": "hey olly what is on the radio right now", "label_name": "play_radio"}
+{"id": "14962", "partition": "train", "label": 39, "text": "open stocks", "label_name": "qa_stock"}
+{"id": "5028", "partition": "dev", "label": 46, "text": "is the twenty third of april a saturday", "label_name": "datetime_query"}
+{"id": "7058", "partition": "train", "label": 50, "text": "november event delete", "label_name": "calendar_remove"}
+{"id": "6255", "partition": "train", "label": 42, "text": "i would like to order a meal do have any special offers for sea food", "label_name": "general_quirky"}
+{"id": "12305", "partition": "train", "label": 51, "text": "search for trains leaving tonight for london", "label_name": "transport_query"}
+{"id": "6355", "partition": "train", "label": 42, "text": "i had chicken for lunch and it was delicious", "label_name": "general_quirky"}
+{"id": "14455", "partition": "train", "label": 53, "text": "find area", "label_name": "qa_factoid"}
+{"id": "1438", "partition": "train", "label": 40, "text": "what alarms do i have", "label_name": "alarm_query"}
+{"id": "3331", "partition": "train", "label": 20, "text": "set notification for six o'clock news update", "label_name": "news_query"}
+{"id": "9641", "partition": "train", "label": 38, "text": "olly open spotify and open workout", "label_name": "play_radio"}
+{"id": "1860", "partition": "train", "label": 20, "text": "did snap become public yet", "label_name": "news_query"}
+{"id": "8701", "partition": "train", "label": 4, "text": "set calendar for date and time with this person", "label_name": "calendar_set"}
+{"id": "3850", "partition": "train", "label": 20, "text": "what is latest on the recent events happening right now", "label_name": "news_query"}
+{"id": "1019", "partition": "train", "label": 19, "text": "is it going to snow today", "label_name": "weather_query"}
+{"id": "16246", "partition": "train", "label": 41, "text": "send email to joanne at a. o. l. dot com and add as new contact", "label_name": "email_sendemail"}
+{"id": "3842", "partition": "train", "label": 54, "text": "get the roomba to start cleaning", "label_name": "iot_cleaning"}
+{"id": "108", "partition": "train", "label": 1, "text": "play a song i like", "label_name": "play_music"}
+{"id": "9151", "partition": "train", "label": 4, "text": "remind me about my lunch date for monday", "label_name": "calendar_set"}
+{"id": "988", "partition": "train", "label": 20, "text": "world news", "label_name": "news_query"}
+{"id": "4773", "partition": "train", "label": 20, "text": "please tell me the news in polk county florida", "label_name": "news_query"}
+{"id": "6743", "partition": "train", "label": 4, "text": "add weekly one p. m. call to calendar", "label_name": "calendar_set"}
+{"id": "609", "partition": "train", "label": 10, "text": "bring back talking after", "label_name": "audio_volume_up"}
+{"id": "12833", "partition": "train", "label": 52, "text": "alexa book me a train ticket for this afternoon to chicago", "label_name": "transport_ticket"}
+{"id": "5144", "partition": "train", "label": 19, "text": "please tell me what will be rainy day based on the weather forecast", "label_name": "weather_query"}
+{"id": "11314", "partition": "train", "label": 48, "text": "please play jocko's podcast", "label_name": "play_podcasts"}
+{"id": "6168", "partition": "train", "label": 7, "text": "olly no notifications for five minutes", "label_name": "audio_volume_mute"}
+{"id": "12060", "partition": "train", "label": 32, "text": "i wish to go for cheap shopping is there any dollars shop nearby", "label_name": "recommendation_locations"}
+{"id": "9165", "partition": "train", "label": 4, "text": "olly set a reminder for my meeting today", "label_name": "calendar_set"}
+{"id": "2181", "partition": "train", "label": 46, "text": "tell me the time now", "label_name": "datetime_query"}
+{"id": "2656", "partition": "train", "label": 1, "text": "play all songs by metallica on shuffle", "label_name": "play_music"}
+{"id": "9605", "partition": "train", "label": 38, "text": "can you play the radio please", "label_name": "play_radio"}
+{"id": "11666", "partition": "dev", "label": 32, "text": "i'm looking for some dress shows can you find clothing stores within one mile", "label_name": "recommendation_locations"}
+{"id": "877", "partition": "train", "label": 25, "text": "food order from grubhub", "label_name": "takeaway_order"}
+{"id": "9104", "partition": "train", "label": 27, "text": "was there an appointment set up for saturday", "label_name": "calendar_query"}
+{"id": "8697", "partition": "dev", "label": 4, "text": "i have a meeting with al on march twenty first at ten", "label_name": "calendar_set"}
+{"id": "8202", "partition": "train", "label": 27, "text": "was my afternoon meeting canceled", "label_name": "calendar_query"}
+{"id": "12359", "partition": "train", "label": 47, "text": "may i know the traffic situation", "label_name": "transport_traffic"}
+{"id": "2224", "partition": "train", "label": 19, "text": "weather in atlanta", "label_name": "weather_query"}
+{"id": "3455", "partition": "train", "label": 7, "text": "mute for volume", "label_name": "audio_volume_mute"}
+{"id": "11923", "partition": "train", "label": 32, "text": "please look up clothing stores near me", "label_name": "recommendation_locations"}
+{"id": "5510", "partition": "train", "label": 56, "text": "what is the time difference between here and there", "label_name": "datetime_convert"}
+{"id": "5713", "partition": "train", "label": 57, "text": "turn room light off", "label_name": "iot_hue_lightoff"}
+{"id": "12673", "partition": "train", "label": 47, "text": "are the streets congested right now", "label_name": "transport_traffic"}
+{"id": "5646", "partition": "train", "label": 57, "text": "switch off kitchen lights", "label_name": "iot_hue_lightoff"}
+{"id": "16967", "partition": "train", "label": 45, "text": "search my emails with subject including work hours", "label_name": "email_query"}
+{"id": "12587", "partition": "dev", "label": 51, "text": "what are the train times from san francisco to new york", "label_name": "transport_query"}
+{"id": "9268", "partition": "train", "label": 38, "text": "play the radio band with documentary", "label_name": "play_radio"}
+{"id": "4796", "partition": "dev", "label": 57, "text": "shut off the lights in the bedroom", "label_name": "iot_hue_lightoff"}
+{"id": "15932", "partition": "train", "label": 45, "text": "how many new emails do i have", "label_name": "email_query"}
+{"id": "5500", "partition": "train", "label": 1, "text": "play the song doggy style in continuous mode", "label_name": "play_music"}
+{"id": "10178", "partition": "train", "label": 44, "text": "learn to cut potatoes correctly", "label_name": "cooking_recipe"}
+{"id": "16210", "partition": "train", "label": 45, "text": "is there any new message from person a", "label_name": "email_query"}
+{"id": "3541", "partition": "train", "label": 1, "text": "i would like to hear heathens by twenty one pilots", "label_name": "play_music"}
+{"id": "8737", "partition": "train", "label": 50, "text": "clear my schedule for this date", "label_name": "calendar_remove"}
+{"id": "834", "partition": "train", "label": 20, "text": "tell me the latest news from b. b. c. sports", "label_name": "news_query"}
+{"id": "12173", "partition": "train", "label": 52, "text": "find me a train ticket next monday to new york city", "label_name": "transport_ticket"}
+{"id": "2585", "partition": "train", "label": 5, "text": "start the radio now on low volume", "label_name": "audio_volume_down"}
+{"id": "9329", "partition": "train", "label": 38, "text": "play random radio station", "label_name": "play_radio"}
+{"id": "13544", "partition": "dev", "label": 53, "text": "are jello shots calorie free", "label_name": "qa_factoid"}
+{"id": "7088", "partition": "train", "label": 4, "text": "open calendar", "label_name": "calendar_set"}
+{"id": "5169", "partition": "train", "label": 20, "text": "show me more about the presidential election", "label_name": "news_query"}
+{"id": "7665", "partition": "dev", "label": 4, "text": "i want to add a lunch date with mike jim and bob", "label_name": "calendar_set"}
+{"id": "5725", "partition": "train", "label": 10, "text": "raise your volume", "label_name": "audio_volume_up"}
+{"id": "13087", "partition": "train", "label": 13, "text": "can you take five and divide it by three", "label_name": "qa_maths"}
+{"id": "7010", "partition": "train", "label": 4, "text": "send a calendar appointment to jan", "label_name": "calendar_set"}
+{"id": "5271", "partition": "train", "label": 20, "text": "latest finance news", "label_name": "news_query"}
+{"id": "12420", "partition": "train", "label": 51, "text": "where is the nearest target", "label_name": "transport_query"}
+{"id": "6730", "partition": "train", "label": 4, "text": "schedule a chat with adam on thursday afternoon", "label_name": "calendar_set"}
+{"id": "9159", "partition": "train", "label": 4, "text": "olly create an event in my calendar", "label_name": "calendar_set"}
+{"id": "11382", "partition": "train", "label": 48, "text": "play compassionate cook episode twenty three", "label_name": "play_podcasts"}
+{"id": "2628", "partition": "train", "label": 10, "text": "lower my music player volume by fifty percent of its current level", "label_name": "audio_volume_up"}
+{"id": "390", "partition": "train", "label": 8, "text": "switch the smart plug socket", "label_name": "iot_wemo_on"}
+{"id": "6808", "partition": "dev", "label": 50, "text": "remove all the events on my calendar", "label_name": "calendar_remove"}
+{"id": "10925", "partition": "dev", "label": 37, "text": "create a new list of my pending bills", "label_name": "lists_createoradd"}
+{"id": "15805", "partition": "dev", "label": 41, "text": "email david about the meeting tomorrow david can we have the meeting in the afternoon", "label_name": "email_sendemail"}
+{"id": "16232", "partition": "dev", "label": 41, "text": "olly please respond to greg's email stating that his idea is fantastic", "label_name": "email_sendemail"}
+{"id": "9083", "partition": "train", "label": 50, "text": "delete all details in event", "label_name": "calendar_remove"}
+{"id": "1946", "partition": "train", "label": 10, "text": "rise volume", "label_name": "audio_volume_up"}
+{"id": "4788", "partition": "train", "label": 43, "text": "what is in my favorites music folder", "label_name": "music_likeness"}
+{"id": "10436", "partition": "train", "label": 37, "text": "create a list", "label_name": "lists_createoradd"}
+{"id": "7251", "partition": "train", "label": 50, "text": "cancel sam's party", "label_name": "calendar_remove"}
+{"id": "5731", "partition": "train", "label": 19, "text": "is it a rainy and stormy day", "label_name": "weather_query"}
+{"id": "4509", "partition": "train", "label": 21, "text": "disable the alarm at ten am", "label_name": "alarm_remove"}
+{"id": "15860", "partition": "train", "label": 41, "text": "send email to mom asking about the weather", "label_name": "email_sendemail"}
+{"id": "8632", "partition": "train", "label": 50, "text": "can you remove that on my calendar", "label_name": "calendar_remove"}
+{"id": "6094", "partition": "train", "label": 19, "text": "should i keep my windows open tonight", "label_name": "weather_query"}
+{"id": "3888", "partition": "train", "label": 25, "text": "please call china wok and order number seven", "label_name": "takeaway_order"}
+{"id": "1457", "partition": "train", "label": 19, "text": "what's it like in chicago", "label_name": "weather_query"}
+{"id": "1968", "partition": "train", "label": 19, "text": "is outside raining", "label_name": "weather_query"}
+{"id": "5223", "partition": "train", "label": 20, "text": "what is the latest news about donald trump", "label_name": "news_query"}
+{"id": "10783", "partition": "train", "label": 28, "text": "read my to do list", "label_name": "lists_query"}
+{"id": "978", "partition": "train", "label": 57, "text": "please shut the lights", "label_name": "iot_hue_lightoff"}
+{"id": "13651", "partition": "dev", "label": 13, "text": "how many miles in five kilometers", "label_name": "qa_maths"}
+{"id": "6197", "partition": "train", "label": 3, "text": "who are you", "label_name": "general_greet"}
+{"id": "4251", "partition": "train", "label": 19, "text": "is it too warm to wear my wooly sweater today", "label_name": "weather_query"}
+{"id": "98", "partition": "train", "label": 19, "text": "is it currently snowing", "label_name": "weather_query"}
+{"id": "10598", "partition": "train", "label": 28, "text": "my list should be ready mind telling me what's on there", "label_name": "lists_query"}
+{"id": "5765", "partition": "train", "label": 54, "text": "vacuum start", "label_name": "iot_cleaning"}
+{"id": "8252", "partition": "train", "label": 55, "text": "set a timer at five am seven days a week", "label_name": "alarm_set"}
+{"id": "1068", "partition": "train", "label": 54, "text": "is there anything i need to know before i activate the robot vacuum cleaner", "label_name": "iot_cleaning"}
+{"id": "2176", "partition": "train", "label": 16, "text": "lower the light level in my house", "label_name": "iot_hue_lightdim"}
+{"id": "5968", "partition": "dev", "label": 25, "text": "i want to order food", "label_name": "takeaway_order"}
+{"id": "4855", "partition": "train", "label": 7, "text": "cut off noise", "label_name": "audio_volume_mute"}
+{"id": "6079", "partition": "dev", "label": 55, "text": "alarm", "label_name": "alarm_set"}
+{"id": "6122", "partition": "train", "label": 59, "text": "that background song is terrible", "label_name": "music_dislikeness"}
+{"id": "10710", "partition": "train", "label": 37, "text": "put this on my list", "label_name": "lists_createoradd"}
+{"id": "562", "partition": "dev", "label": 21, "text": "get rid of my eight am alarm", "label_name": "alarm_remove"}
+{"id": "4873", "partition": "train", "label": 43, "text": "review", "label_name": "music_likeness"}
+{"id": "159", "partition": "train", "label": 16, "text": "decrease brightness", "label_name": "iot_hue_lightdim"}
+{"id": "1173", "partition": "train", "label": 0, "text": "adjust sound", "label_name": "audio_volume_other"}
+{"id": "8788", "partition": "dev", "label": 23, "text": "searching for recent happenings on the particular dates", "label_name": "recommendation_events"}
+{"id": "14464", "partition": "train", "label": 32, "text": "nearest restaurants available at this time", "label_name": "recommendation_locations"}
+{"id": "12096", "partition": "dev", "label": 23, "text": "what's going on around the neighborhood", "label_name": "recommendation_events"}
+{"id": "10798", "partition": "train", "label": 37, "text": "add butter to the list", "label_name": "lists_createoradd"}
+{"id": "6459", "partition": "train", "label": 19, "text": "what is the weather like outside it is cloudy", "label_name": "weather_query"}
+{"id": "3630", "partition": "train", "label": 11, "text": "i want some coffee now", "label_name": "iot_coffee"}
+{"id": "9843", "partition": "train", "label": 35, "text": "please resume current song of masti", "label_name": "play_audiobook"}
+{"id": "15339", "partition": "train", "label": 22, "text": "send this message to twitter", "label_name": "social_post"}
+{"id": "12631", "partition": "train", "label": 24, "text": "get me a taxi to the airport right now", "label_name": "transport_taxi"}
+{"id": "16288", "partition": "dev", "label": 45, "text": "tell me who send the email about the boss yesterday", "label_name": "email_query"}
+{"id": "14100", "partition": "train", "label": 42, "text": "is there any problem for having junk food and drinks", "label_name": "general_quirky"}
+{"id": "6858", "partition": "dev", "label": 4, "text": "set up the following event in the calendar with the following people", "label_name": "calendar_set"}
+{"id": "15912", "partition": "train", "label": 41, "text": "email gary", "label_name": "email_sendemail"}
+{"id": "15929", "partition": "train", "label": 45, "text": "check to see if new emails have come from title nine", "label_name": "email_query"}
+{"id": "3345", "partition": "train", "label": 46, "text": "what time is it in hong kong", "label_name": "datetime_query"}
+{"id": "13293", "partition": "train", "label": 13, "text": "i need to figure out this percentage", "label_name": "qa_maths"}
+{"id": "10180", "partition": "train", "label": 44, "text": "how do i cook a hard boiled egg", "label_name": "cooking_recipe"}
+{"id": "16450", "partition": "train", "label": 33, "text": "what's my friend joe's phone number", "label_name": "email_querycontact"}
+{"id": "2483", "partition": "dev", "label": 16, "text": "will you dim all the lights", "label_name": "iot_hue_lightdim"}
+{"id": "4759", "partition": "train", "label": 19, "text": "is it going to snow tonight", "label_name": "weather_query"}
+{"id": "16540", "partition": "train", "label": 45, "text": "has mom sent me any emails", "label_name": "email_query"}
+{"id": "5628", "partition": "train", "label": 17, "text": "turn off the fan", "label_name": "iot_wemo_off"}
+{"id": "3344", "partition": "train", "label": 40, "text": "what time i am waking up tomorrow", "label_name": "alarm_query"}
+{"id": "10897", "partition": "train", "label": 34, "text": "olly remove item from my list", "label_name": "lists_remove"}
+{"id": "7103", "partition": "train", "label": 4, "text": "please invite kim marc and julian to a meeting on thursday at three p. m.", "label_name": "calendar_set"}
+{"id": "9000", "partition": "train", "label": 4, "text": "remind me after an hour to go for shopping", "label_name": "calendar_set"}
+{"id": "4002", "partition": "train", "label": 1, "text": "play rap", "label_name": "play_music"}
+{"id": "11804", "partition": "train", "label": 23, "text": "can you find me a street fair in the neighborhood", "label_name": "recommendation_events"}
+{"id": "15182", "partition": "dev", "label": 6, "text": "read me the last tweet from the washington post", "label_name": "social_query"}
+{"id": "13793", "partition": "train", "label": 58, "text": "define love without invoking the term love", "label_name": "qa_definition"}
+{"id": "14311", "partition": "train", "label": 39, "text": "show me share price of amazon", "label_name": "qa_stock"}
+{"id": "13328", "partition": "train", "label": 25, "text": "pull up the menu for the closest mexican restaurant", "label_name": "takeaway_order"}
+{"id": "6414", "partition": "dev", "label": 27, "text": "my weekly plan", "label_name": "calendar_query"}
+{"id": "4095", "partition": "train", "label": 55, "text": "please set my alarm clock for eight am", "label_name": "alarm_set"}
+{"id": "15478", "partition": "dev", "label": 22, "text": "contact amazon customer service via twitter", "label_name": "social_post"}
+{"id": "12690", "partition": "train", "label": 47, "text": "how is the traffic on i twenty five", "label_name": "transport_traffic"}
+{"id": "4469", "partition": "train", "label": 19, "text": "will i need a jacket today", "label_name": "weather_query"}
+{"id": "14514", "partition": "train", "label": 53, "text": "who is the current president of united states", "label_name": "qa_factoid"}
+{"id": "9510", "partition": "train", "label": 38, "text": "set frequency of the radio", "label_name": "play_radio"}
+{"id": "9659", "partition": "train", "label": 38, "text": "use this program", "label_name": "play_radio"}
+{"id": "9033", "partition": "train", "label": 27, "text": "july three calendar", "label_name": "calendar_query"}
+{"id": "9688", "partition": "dev", "label": 35, "text": "start chapter seven of alma", "label_name": "play_audiobook"}
+{"id": "14303", "partition": "train", "label": 39, "text": "how strong is the dollar compared to the peso", "label_name": "qa_stock"}
+{"id": "10153", "partition": "train", "label": 44, "text": "find a recipe for chicken alfredo", "label_name": "cooking_recipe"}
+{"id": "11456", "partition": "train", "label": 48, "text": "skip forward", "label_name": "play_podcasts"}
+{"id": "11982", "partition": "train", "label": 30, "text": "olly what movies are playing in columbia", "label_name": "recommendation_movies"}
+{"id": "245", "partition": "train", "label": 20, "text": "show me some news from b. b. c.", "label_name": "news_query"}
+{"id": "14371", "partition": "train", "label": 29, "text": "tell exchange rate of pound", "label_name": "qa_currency"}
+{"id": "1519", "partition": "train", "label": 11, "text": "turn on the coffee pot", "label_name": "iot_coffee"}
+{"id": "9929", "partition": "train", "label": 44, "text": "olly how do i cook a pasta", "label_name": "cooking_recipe"}
+{"id": "1041", "partition": "train", "label": 20, "text": "what's on the news today", "label_name": "news_query"}
+{"id": "2544", "partition": "dev", "label": 19, "text": "what is it like outside", "label_name": "weather_query"}
+{"id": "11170", "partition": "train", "label": 28, "text": "provide the list", "label_name": "lists_query"}
+{"id": "13861", "partition": "dev", "label": 29, "text": "please show me the exchange rate between the dollar and the yen", "label_name": "qa_currency"}
+{"id": "3994", "partition": "train", "label": 46, "text": "what day of the week is halloween", "label_name": "datetime_query"}
+{"id": "4744", "partition": "train", "label": 40, "text": "list all of my upcoming alarms", "label_name": "alarm_query"}
+{"id": "3199", "partition": "train", "label": 20, "text": "give me updates on this news", "label_name": "news_query"}
+{"id": "7466", "partition": "train", "label": 27, "text": "show me events that are going on right now", "label_name": "calendar_query"}
+{"id": "446", "partition": "train", "label": 1, "text": "play metallica", "label_name": "play_music"}
+{"id": "14771", "partition": "train", "label": 53, "text": "alexa who is bob dean", "label_name": "qa_factoid"}
+{"id": "13097", "partition": "train", "label": 53, "text": "what is the total number of oceans in the world", "label_name": "qa_factoid"}
+{"id": "982", "partition": "train", "label": 49, "text": "change the color of the lights in my house from white to yellow", "label_name": "iot_hue_lightchange"}
+{"id": "8428", "partition": "train", "label": 4, "text": "olly add lunch appointment with lisa to january second at twelve thirty p. m.", "label_name": "calendar_set"}
+{"id": "637", "partition": "train", "label": 31, "text": "tell me a joke about a man", "label_name": "general_joke"}
+{"id": "616", "partition": "dev", "label": 1, "text": "olly play songs from my playlist", "label_name": "play_music"}
+{"id": "12462", "partition": "train", "label": 24, "text": "book uber for tonight at seven p. m.", "label_name": "transport_taxi"}
+{"id": "14854", "partition": "train", "label": 53, "text": "how deep is the deepest point of the grand canyon", "label_name": "qa_factoid"}
+{"id": "8810", "partition": "train", "label": 4, "text": "schedule a meeting this monday with peter francis in the afternoon", "label_name": "calendar_set"}
+{"id": "2425", "partition": "dev", "label": 46, "text": "tell me what time is it", "label_name": "datetime_query"}
+{"id": "17073", "partition": "train", "label": 45, "text": "refresh my email", "label_name": "email_query"}
+{"id": "16715", "partition": "train", "label": 41, "text": "please send an email to john saying i'm on leave", "label_name": "email_sendemail"}
+{"id": "5811", "partition": "train", "label": 1, "text": "alexa can you play my favorite music", "label_name": "play_music"}
+{"id": "16525", "partition": "dev", "label": 45, "text": "check all emails from eric", "label_name": "email_query"}
+{"id": "7274", "partition": "train", "label": 4, "text": "remind me about my anniversary in advance", "label_name": "calendar_set"}
+{"id": "12200", "partition": "train", "label": 52, "text": "book a train ticket to canada this evening", "label_name": "transport_ticket"}
+{"id": "11123", "partition": "train", "label": 28, "text": "tell me items that are on my shopping list", "label_name": "lists_query"}
+{"id": "8184", "partition": "train", "label": 27, "text": "what do i have pending", "label_name": "calendar_query"}
+{"id": "2357", "partition": "train", "label": 1, "text": "play music from where you left off", "label_name": "play_music"}
+{"id": "2031", "partition": "train", "label": 26, "text": "what song is that", "label_name": "music_query"}
+{"id": "5491", "partition": "train", "label": 21, "text": "can you please remove the alarm", "label_name": "alarm_remove"}
+{"id": "10929", "partition": "dev", "label": 28, "text": "give me my list", "label_name": "lists_query"}
+{"id": "13275", "partition": "dev", "label": 42, "text": "what is my location", "label_name": "general_quirky"}
+{"id": "5068", "partition": "train", "label": 18, "text": "please put this playlist on shuffle", "label_name": "music_settings"}
+{"id": "8909", "partition": "train", "label": 27, "text": "show me the meetings held last week", "label_name": "calendar_query"}
+{"id": "7625", "partition": "train", "label": 4, "text": "set a reminder alert for saturday nine am towards payment of electricity bill", "label_name": "calendar_set"}
+{"id": "1305", "partition": "train", "label": 46, "text": "hey what's today's date", "label_name": "datetime_query"}
+{"id": "7486", "partition": "dev", "label": 27, "text": "what are my current alerts", "label_name": "calendar_query"}
+{"id": "6888", "partition": "train", "label": 27, "text": "best", "label_name": "calendar_query"}
+{"id": "13000", "partition": "train", "label": 53, "text": "what city does anthony keidis live in", "label_name": "qa_factoid"}
+{"id": "15474", "partition": "train", "label": 22, "text": "send a message to national grid that the power is out again", "label_name": "social_post"}
+{"id": "16708", "partition": "train", "label": 33, "text": "locate information on john smith about his work location", "label_name": "email_querycontact"}
+{"id": "16616", "partition": "train", "label": 45, "text": "have i received any emails about jared's birthday", "label_name": "email_query"}
+{"id": "2810", "partition": "dev", "label": 9, "text": "brighten lights in living room", "label_name": "iot_hue_lightup"}
+{"id": "990", "partition": "train", "label": 1, "text": "play hotel california after this song", "label_name": "play_music"}
+{"id": "3979", "partition": "train", "label": 19, "text": "is it hot outside right now i'm hawaii", "label_name": "weather_query"}
+{"id": "2740", "partition": "dev", "label": 12, "text": "can i get delivery from this restaurant", "label_name": "takeaway_query"}
+{"id": "2280", "partition": "train", "label": 1, "text": "play recently added music", "label_name": "play_music"}
+{"id": "16903", "partition": "dev", "label": 41, "text": "send a response to my last email", "label_name": "email_sendemail"}
+{"id": "10495", "partition": "train", "label": 34, "text": "remove table from furniture", "label_name": "lists_remove"}
+{"id": "5356", "partition": "train", "label": 57, "text": "please turn off right side of light", "label_name": "iot_hue_lightoff"}
+{"id": "4563", "partition": "train", "label": 56, "text": "can you change my time zone to central", "label_name": "datetime_convert"}
+{"id": "13561", "partition": "train", "label": 58, "text": "define love", "label_name": "qa_definition"}
+{"id": "13015", "partition": "train", "label": 58, "text": "what is the definition of precocious", "label_name": "qa_definition"}
+{"id": "6687", "partition": "train", "label": 42, "text": "life", "label_name": "general_quirky"}
+{"id": "11151", "partition": "train", "label": 37, "text": "add chives to my shopping list", "label_name": "lists_createoradd"}
+{"id": "15516", "partition": "dev", "label": 22, "text": "please make a tweet to dell company about the faulty service of laptop", "label_name": "social_post"}
+{"id": "2210", "partition": "train", "label": 20, "text": "what was the news for today from news provider", "label_name": "news_query"}
+{"id": "6145", "partition": "train", "label": 46, "text": "tell me the time in another city in us", "label_name": "datetime_query"}
+{"id": "15192", "partition": "train", "label": 6, "text": "check my twitter notification", "label_name": "social_query"}
+{"id": "7965", "partition": "train", "label": 27, "text": "i need to know if i have any new reminders", "label_name": "calendar_query"}
+{"id": "5513", "partition": "train", "label": 26, "text": "tell me starting phrase of this music", "label_name": "music_query"}
+{"id": "11507", "partition": "train", "label": 48, "text": "open podcast player", "label_name": "play_podcasts"}
+{"id": "12601", "partition": "train", "label": 51, "text": "directions to place", "label_name": "transport_query"}
+{"id": "7607", "partition": "train", "label": 4, "text": "meeting with joanne in ten minutes in the conference room", "label_name": "calendar_set"}
+{"id": "11813", "partition": "train", "label": 32, "text": "tell me where the local shopping district is", "label_name": "recommendation_locations"}
+{"id": "16458", "partition": "train", "label": 41, "text": "send email to newmail at gmail dot com", "label_name": "email_sendemail"}
+{"id": "1614", "partition": "train", "label": 19, "text": "any signs of rain", "label_name": "weather_query"}
+{"id": "4087", "partition": "train", "label": 43, "text": "nice music", "label_name": "music_likeness"}
+{"id": "11404", "partition": "train", "label": 48, "text": "what is the next episode in the podcast play it", "label_name": "play_podcasts"}
+{"id": "7835", "partition": "train", "label": 4, "text": "please add an event to my schedule", "label_name": "calendar_set"}
+{"id": "9246", "partition": "train", "label": 38, "text": "is rush limbaugh on the air if he is put him on", "label_name": "play_radio"}
+{"id": "14149", "partition": "train", "label": 58, "text": "blanket definition", "label_name": "qa_definition"}
+{"id": "14489", "partition": "train", "label": 53, "text": "what is the home city of the bolshoi theater", "label_name": "qa_factoid"}
+{"id": "13137", "partition": "train", "label": 53, "text": "how many oceans are there", "label_name": "qa_factoid"}
+{"id": "2598", "partition": "dev", "label": 20, "text": "what is the latest international news", "label_name": "news_query"}
+{"id": "10405", "partition": "train", "label": 14, "text": "let's roll the dice", "label_name": "play_game"}
+{"id": "9452", "partition": "train", "label": 38, "text": "search for gary mcnamara in radio", "label_name": "play_radio"}
+{"id": "2185", "partition": "train", "label": 57, "text": "turn off the light of my bed room please", "label_name": "iot_hue_lightoff"}
+{"id": "3439", "partition": "dev", "label": 1, "text": "play romantic playlist", "label_name": "play_music"}
+{"id": "10330", "partition": "train", "label": 14, "text": "lets play checkers", "label_name": "play_game"}
+{"id": "2143", "partition": "train", "label": 20, "text": "google news", "label_name": "news_query"}
+{"id": "2987", "partition": "train", "label": 12, "text": "does dominoes deliver", "label_name": "takeaway_query"}
+{"id": "305", "partition": "train", "label": 25, "text": "order a pizza from pizza express", "label_name": "takeaway_order"}
+{"id": "1193", "partition": "train", "label": 1, "text": "olly i need to hear notorious thugs by bone thugs now", "label_name": "play_music"}
+{"id": "4493", "partition": "train", "label": 49, "text": "change the color of my lights to something random", "label_name": "iot_hue_lightchange"}
+{"id": "7526", "partition": "train", "label": 4, "text": "set on second january about soccer match of manchester", "label_name": "calendar_set"}
+{"id": "13082", "partition": "train", "label": 53, "text": "book me a flight to mars next year", "label_name": "qa_factoid"}
+{"id": "12142", "partition": "train", "label": 47, "text": "how is my commute", "label_name": "transport_traffic"}
+{"id": "4783", "partition": "train", "label": 55, "text": "set the alarm", "label_name": "alarm_set"}
+{"id": "2619", "partition": "train", "label": 20, "text": "ok google add a notification from bob's news on the weather", "label_name": "news_query"}
+{"id": "2918", "partition": "train", "label": 19, "text": "monthly weather report", "label_name": "weather_query"}
+{"id": "6191", "partition": "train", "label": 42, "text": "olly did you have a good day", "label_name": "general_quirky"}
+{"id": "6038", "partition": "train", "label": 19, "text": "will it rain in the noon", "label_name": "weather_query"}
+{"id": "12570", "partition": "train", "label": 51, "text": "what are departure arrival times for this train", "label_name": "transport_query"}
+{"id": "15766", "partition": "train", "label": 41, "text": "could you please send back to pawel this answer", "label_name": "email_sendemail"}
+{"id": "12994", "partition": "train", "label": 42, "text": "i want to buy over ear headphones with minimum frequency response of fifteen hertz and maximum frequency response twenty two thousand hertz", "label_name": "general_quirky"}
+{"id": "12438", "partition": "dev", "label": 51, "text": "what are the train times to travel from new york city to poughkeepsie", "label_name": "transport_query"}
+{"id": "6642", "partition": "dev", "label": 42, "text": "recent advice concerning google seo", "label_name": "general_quirky"}
+{"id": "7441", "partition": "train", "label": 4, "text": "meeting with love the next day", "label_name": "calendar_set"}
+{"id": "345", "partition": "dev", "label": 19, "text": "what will be the temperature out there tomorrow", "label_name": "weather_query"}
+{"id": "6580", "partition": "train", "label": 42, "text": "the nature of artificial intelligence", "label_name": "general_quirky"}
+{"id": "8039", "partition": "dev", "label": 4, "text": "please set a reminder for me to go to work in ten minutes", "label_name": "calendar_set"}
+{"id": "4596", "partition": "train", "label": 8, "text": "turn on kitchen light", "label_name": "iot_wemo_on"}
+{"id": "13696", "partition": "train", "label": 42, "text": "tell me about this person", "label_name": "general_quirky"}
+{"id": "8813", "partition": "train", "label": 50, "text": "please empty my calendar", "label_name": "calendar_remove"}
+{"id": "4699", "partition": "train", "label": 55, "text": "reminder", "label_name": "alarm_set"}
+{"id": "8370", "partition": "train", "label": 50, "text": "hey siri clear all my calendar appoints for today", "label_name": "calendar_remove"}
+{"id": "2289", "partition": "train", "label": 10, "text": "increase volume by one", "label_name": "audio_volume_up"}
+{"id": "7545", "partition": "train", "label": 50, "text": "clear the entire month of may", "label_name": "calendar_remove"}
+{"id": "7363", "partition": "train", "label": 50, "text": "go to calendar and delete an third event of twenty seventh of march twenty seventeen", "label_name": "calendar_remove"}
+{"id": "5516", "partition": "dev", "label": 43, "text": "favorite this music", "label_name": "music_likeness"}
+{"id": "1906", "partition": "train", "label": 5, "text": "decrease volume", "label_name": "audio_volume_down"}
+{"id": "1088", "partition": "train", "label": 7, "text": "get yourself muted", "label_name": "audio_volume_mute"}
+{"id": "3839", "partition": "train", "label": 7, "text": "mute audio", "label_name": "audio_volume_mute"}
+{"id": "958", "partition": "train", "label": 54, "text": "asking for this technology", "label_name": "iot_cleaning"}
+{"id": "12767", "partition": "train", "label": 52, "text": "can i get a train ticket to", "label_name": "transport_ticket"}
+{"id": "16546", "partition": "train", "label": 36, "text": "make a new contact with this email", "label_name": "email_addcontact"}
