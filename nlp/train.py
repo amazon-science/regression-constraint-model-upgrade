@@ -22,6 +22,7 @@ parser.add_argument('--seeds', nargs="+", default=[1111],
                     help='Run experiments for different random seeds')
 parser.add_argument('--output_dir', default='v1', type=str, help='output dir')
 parser.add_argument('--bucket_name', default=None, type=str, help='s3 bucket name for saving result')
+parser.add_argument('--load_from_s3', action=None, help='specify path to load from s3')
 opts = parser.parse_args()
 
 
@@ -31,6 +32,16 @@ output_dir = os.path.join(opts.base_path, 'bcwi_nlp_outputs', opts.output_dir)
 dataset_dir = os.path.join(opts.base_path, 'data', dataset_name)
 seeds = [int(seed) for seed in opts.seeds]
 bucket_name = opts.bucket_name
+load_from_s3 = opts.load_from_s3
+
+if bucket_name is not None or load_from_s3 is not None:
+    import boto3
+    s3 = boto3.client('s3')
+    # list folders in the bucket_name using s3
+    if bucket_name is not None:
+        bucket = s3.list_objects(Bucket=bucket_name)
+        keys = [content['Key'] for content in bucket['Contents']]
+    from utils import upload_directory_to_s3#, load_model_from_s3
 
 pt_model_name = 'roberta-base'
 load_tokenizer(pt_model_name)
@@ -59,7 +70,14 @@ def main():
         num_labels = len(old_dataset_info['labels'])
 
         setup_seed(seed)
-        model = RobertaForSequenceClassification.from_pretrained(pt_model_name, num_labels=num_labels)
+        if load_from_s3:
+            # TODO finish this function
+            print (f"Loading from S3 {load_from_s3}")
+            #model = load_model_from_s3(pt_model_name, method_dir)
+            model = RobertaForSequenceClassification.from_pretrained(pt_model_name, num_labels=num_labels)
+        else:
+            print ("Initializing new RoBERTa classifier")
+            model = RobertaForSequenceClassification.from_pretrained(pt_model_name, num_labels=num_labels)
         init_classifier_weight = model.classifier.out_proj.weight.detach().cpu().clone()
         init_classifier_bias = model.classifier.out_proj.bias.detach().cpu().clone()
 
@@ -124,16 +142,10 @@ def main():
 
         # if args.bucket_name is not None save the method_dir in the bucket
         if bucket_name is not None:
-            import boto3
-            s3 = boto3.client('s3')
-
-            def upload_directory(bucket_name, prefix, local_dir):
-                for path, subdirs, files in os.walk(local_dir):
-                    for file in files:
-                        full_path = os.path.join(path, file)
-                        with open(full_path, 'rb') as data:
-                            s3.upload_fileobj(data, bucket_name, prefix + full_path)
-            upload_directory(bucket_name, "", method_dir)
+            print (f"bucket name {bucket_name}")
+            print (f"dir {method_dir}")
+            upload_directory_to_s3(s3, bucket_name, "", method_dir)
+            print (f"uploaded {method_dir} to s3 bucket name {bucket_name}")
 
         print('train_metrics', metrics['train'])
         print('dev_metrics', metrics['dev'])
