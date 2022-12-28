@@ -7,7 +7,7 @@ import numpy as np
 from model.training import train
 from model.evaluate import get_metrics, get_calculate_metrics_func, get_distance
 from model.utils import save_hparams_to_dir, save_model_to_dir
-from model.utils import load_dataset, get_config, get_writer
+from model.utils import load_dataset, get_config#, get_writer
 from model.utils import load_old_model_info
 from methods.utils import get_hyperparameters
 from experiment.utils import setup_seed
@@ -109,7 +109,7 @@ def get_run(
 
             model_dir = os.path.join(method_dir, 'model_' + hparam_str)
             config = get_config(hparam, seed)
-            writer = get_writer(model_dir, gating, distill)
+            #writer = get_writer(model_dir, gating, distill)
 
             config['data_type'] = data_type
 
@@ -152,12 +152,12 @@ def get_run(
                           config,
                           metrics_func=metrics_func,
                           dataset=dataset,
-                          writer=writer,
+                          #writer=writer,
                           log_batch=log_batch,
                           freeze_old_classes=freeze_old_classes,
                           fp16=fp16)
 
-            writer.close()
+            #writer.close()
             save_hparams_to_dir(config, model_dir)
 
             # evaluate new model

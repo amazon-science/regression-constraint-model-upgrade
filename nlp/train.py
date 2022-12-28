@@ -10,7 +10,7 @@ from utils import setup_seed
 from model.training import train
 from model.evaluate import get_metrics, accuracy_metric
 from model.utils import save_hparams_to_dir, save_model_to_dir
-from model.utils import load_dataset, get_config, load_tokenizer, get_writer
+from model.utils import load_dataset, get_config, load_tokenizer#, get_writer
 from experiment.utils import save_metrics, save_logits
 
 fp16 = True
@@ -66,10 +66,11 @@ def main():
         config = get_config(hparam, seed)
 
         model_dir = os.path.join(method_dir, 'model')
-        writer = get_writer(model_dir)
-        model = train(model, config, None, old_dataset, writer, log_batch=True, fp16=fp16)
+        #writer = get_writer(model_dir)
+        #model = train(model, config, None, old_dataset, writer, log_batch=True, fp16=fp16)
+        model = train(model, config, None, old_dataset, log_batch=True, fp16=fp16)
 
-        writer.close()
+        #writer.close()
         save_hparams_to_dir(config, model_dir)
         save_model_to_dir(model, model_dir)
 

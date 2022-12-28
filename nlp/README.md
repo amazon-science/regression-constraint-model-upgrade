@@ -10,4 +10,4 @@ We use a subset of that dataset to simulate the data update scenario. Please tak
 
 ### Train
 
-``python train.py --dataset MASSIVE --scenario add_data --seeds 1111 2222 --output_dir v1``
+``python train.py --dataset MASSIVE --scenario add_data --seeds 1111 --output_dir v1``

@@ -70,15 +70,15 @@ def train(model, config, metrics_func, dataset, writer=None, log_batch=False, fr
 
             # logging metrics
             epoch_losses.append(loss.item())
-            writer.add_scalar('Loss/train', loss.item(), global_step=step)
-            for key, value in model_log.items():
-                writer.add_scalar(key, value, global_step=step)
+            #writer.add_scalar('Loss/train', loss.item(), global_step=step)
+            #for key, value in model_log.items():
+            #    writer.add_scalar(key, value, global_step=step)
             if log_batch:
                 predictions = torch.argmax(logits, dim=-1)
                 batch_metrics = metrics_func('train', predictions, batch['labels'], batch['instance_ids'], strict=False)
-                for key, value in batch_metrics.items():
-                    if value is not None:
-                        writer.add_scalar(f'{key}/train', value, global_step=step)
+                #for key, value in batch_metrics.items():
+                    #if value is not None:
+                    #    writer.add_scalar(f'{key}/train', value, global_step=step)
 
         # more metrics logging
         print('train loss: {:.5f}'.format(np.mean(epoch_losses)))

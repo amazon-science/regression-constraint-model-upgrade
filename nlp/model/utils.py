@@ -6,7 +6,7 @@ import torch
 import datasets
 
 from transformers import RobertaTokenizer
-from torch.utils.tensorboard import SummaryWriter
+#from torch.utils.tensorboard import SummaryWriter
 
 device = torch.device("cuda") if torch.cuda.is_available() else torch.device("cpu")
 tokenizer = []
@@ -48,6 +48,7 @@ def get_config(hparam, seed):
     return config
 
 
+"""
 def get_writer(model_output_dir, gating=False, distill=False):
     writer = SummaryWriter(model_output_dir, max_queue=1000)
     layout = {'Metric': {'ACC': ['Multiline', ['ACC/train', 'ACC/dev']],
@@ -62,6 +63,7 @@ def get_writer(model_output_dir, gating=False, distill=False):
         layout['Distill'] = {'Loss': ['Multiline', ['Distill_loss/student', 'Distill_loss/teacher']]}
     writer.add_custom_scalars(layout)
     return writer
+"""
 
 
 def custom_collate_fn(features):
