@@ -37,11 +37,7 @@ load_from_s3 = opts.load_from_s3
 if bucket_name is not None or load_from_s3 is not None:
     import boto3
     s3 = boto3.client('s3')
-    # list folders in the bucket_name using s3
-    if bucket_name is not None:
-        bucket = s3.list_objects(Bucket=bucket_name)
-        keys = [content['Key'] for content in bucket['Contents']]
-    from utils import upload_directory_to_s3#, load_model_from_s3
+    from utils import upload_directory_to_s3
 
 pt_model_name = 'roberta-base'
 load_tokenizer(pt_model_name)
@@ -73,8 +69,21 @@ def main():
         if load_from_s3:
             # TODO finish this function
             print (f"Loading from S3 {load_from_s3}")
-            #model = load_model_from_s3(pt_model_name, method_dir)
-            model = RobertaForSequenceClassification.from_pretrained(pt_model_name, num_labels=num_labels)
+            # create old_model_dir
+            os.makedirs("old_model_dir", exist_ok=True)
+            # load stuff from s3
+            with open("old_model_dir/config.json", "wb") as f:
+                s3.download_fileobj(bucket_name, os.path.join(load_from_s3, "config.json"), f)
+                print("Downloaded old_model_dir/config.json")
+            with open("old_model_dir/hparams.json", "wb") as f:
+                s3.download_fileobj(bucket_name, os.path.join(load_from_s3, "hparams.json"), f)
+                print("Downloaded old_model_dir/hparams.json")
+            with open("old_model_dir/pytorch_model.bin", "wb") as f:
+                s3.download_fileobj(bucket_name, os.path.join(load_from_s3, "pytorch_model.bin"), f)
+                print("Downloaded old_model_dir/pytorch_model.bin")
+
+            model = RobertaForSequenceClassification.from_pretrained("old_model_dir", num_labels=num_labels)
+            print (f"Initialized RoBERTA from s3 {load_from_s3}")
         else:
             print ("Initializing new RoBERTa classifier")
             model = RobertaForSequenceClassification.from_pretrained(pt_model_name, num_labels=num_labels)
