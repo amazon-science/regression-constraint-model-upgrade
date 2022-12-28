@@ -21,6 +21,7 @@ parser.add_argument('--scenario', default='add_data', help='Name of the data upd
 parser.add_argument('--seeds', nargs="+", default=[1111],
                     help='Run experiments for different random seeds')
 parser.add_argument('--output_dir', default='v1', type=str, help='output dir')
+parser.add_argument('--data_type', default='old', type=str, help='old or updated data')
 parser.add_argument('--bucket_name', default=None, type=str, help='s3 bucket name for saving result')
 parser.add_argument('--load_from_s3', action=None, help='specify path to load from s3')
 opts = parser.parse_args()
@@ -31,6 +32,7 @@ data_update_scenario = opts.scenario
 output_dir = os.path.join(opts.base_path, 'bcwi_nlp_outputs', opts.output_dir)
 dataset_dir = os.path.join(opts.base_path, 'data', dataset_name)
 seeds = [int(seed) for seed in opts.seeds]
+data_type = opts.data_type
 bucket_name = opts.bucket_name
 load_from_s3 = opts.load_from_s3
 
@@ -56,8 +58,10 @@ def main():
         print('data_update_scenario', data_update_scenario)
         print('pretrained_model_name', pt_model_name)
 
-        old_dataset_files = os.path.join(dataset_dir, data_update_scenario, 'old', '{}.jsonl')
+        assert (data_type == "old" or data_type == "updated")
+        old_dataset_files = os.path.join(dataset_dir, data_update_scenario, data_type, '{}.jsonl')
         old_dataset, old_dataset_info = load_dataset(['train', 'dev', 'test'], old_dataset_files)
+
 
         print('train_dataset', old_dataset['train'])
         print('dev_dataset', old_dataset['dev'])
