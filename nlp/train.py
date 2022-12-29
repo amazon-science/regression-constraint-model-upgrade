@@ -20,6 +20,7 @@ parser.add_argument('--dataset', default='MASSIVE', help='Name of the dataset; M
 parser.add_argument('--scenario', default='add_data', help='Name of the data update scenario. add_data, add_classes')
 parser.add_argument('--seeds', nargs="+", default=[1111],
                     help='Run experiments for different random seeds')
+parser.add_argument('--num_epochs', default=None, type=int, help='number of epochs')
 parser.add_argument('--output_dir', default='v1', type=str, help='output dir')
 parser.add_argument('--data_type', default='old', type=str, help='old or updated data')
 parser.add_argument('--bucket_name', default=None, type=str, help='s3 bucket name for saving result')
@@ -32,6 +33,7 @@ data_update_scenario = opts.scenario
 output_dir = os.path.join(opts.base_path, 'bcwi_nlp_outputs', opts.output_dir)
 dataset_dir = os.path.join(opts.base_path, 'data', dataset_name)
 seeds = [int(seed) for seed in opts.seeds]
+num_epochs = int(opts.num_epochs)
 data_type = opts.data_type
 bucket_name = opts.bucket_name
 load_from_s3 = opts.load_from_s3
@@ -95,6 +97,8 @@ def main():
         init_classifier_bias = model.classifier.out_proj.bias.detach().cpu().clone()
 
         config = get_config(hparam, seed)
+        if num_epochs is not None:
+            config['num_epochs'] = num_epochs
 
         model_dir = os.path.join(method_dir, 'model')
         #writer = get_writer(model_dir)
